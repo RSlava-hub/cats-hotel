@@ -1,0 +1,135 @@
+.rooms {
+    margin-top: 140px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__pic {
+        opacity: 0.2;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        z-index: 1;
+    }
+    h1{
+        font-family: "Rubik";
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 70px;
+    }
+
+    &__kind {
+    }
+}
+.roomblocks {
+    z-index: 999;
+    width: 100%;
+    &__block {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__img {
+        position: relative;
+        margin-right: 160px;
+        z-index: 1;
+    }
+
+    &__content {
+        
+        position: absolute;
+        z-index: 999;
+        right: 300px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        padding: 40px 150px 40px 100px;
+         
+         h2{
+            font-family: "Rubik";
+            font-size: 22px;
+            line-height: 26px;
+        }
+         ul > li{
+            font-family: "Lato";
+            font-size: 16px;
+            line-height: 19px;
+        }
+         ul{
+            margin: 30px 0px 30px 0px;
+        }
+         li::marker{
+            font-size: 36px;
+            color: #FAC663;
+        }
+    
+
+    }
+
+    &__btn {
+        border: none;
+        display: flex;
+        align-items: center;
+        font-family: "Lato";
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 600;
+        color: #FFFEFD;
+        padding: 0px 0px 0px 30px;
+        cursor: pointer;
+        background: #FF7236;
+        box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+        border-radius: 25px;
+        img{
+            padding: 7px 7px 7px 20px;
+        }
+    }
+
+    &__blockbtns {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--empty{
+            flex-basis: 15%;
+        }
+        &--inputs > input{
+            margin: 0px 12px 0px 0px;
+            background: #E1E1E1;
+            border: none;
+            border-radius: 10px;
+            width: 12px;
+            height: 12px;
+        }
+        &--inputs input:first-child{
+            background: #FAC663;
+        }
+        
+    }
+    &__blcokbtns--arrows > button{
+        background: #fff;
+        color: #FF7236;
+        font-size: 30px;
+        cursor: pointer;
+        box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+        border-radius: 100%;
+        width: 36px;
+        height: 36px;
+        border: none;
+    }
+    &__blcokbtns--arrows > button:first-child{
+        margin: 0px 10px 0px 0px;
+    }
+    
+    
+
+
+}
+
+
+
+

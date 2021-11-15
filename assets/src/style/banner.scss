@@ -1,0 +1,79 @@
+.banner-screen {
+    position: relative;
+    &{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(/assets/src/img/bgpic/bannerbg.png);
+        height: 504px;
+    }
+
+    &__booking {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        margin-top: 40px;
+        width: 206px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        font-family: "Lato-Semibold";   
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+        cursor: pointer;
+    }   
+
+		&__img {
+            margin-left: 25px;
+            width: 36px;
+            height: 36px;   
+		}
+
+}
+
+.text {
+    padding-top: 153px;
+    margin-left: 198px;
+
+    &__location {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #1A212F;
+
+    }
+
+    &__name {
+        width: 265px;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 62px;
+        line-height: 73px;
+        color: #1A212F;
+
+
+    }
+
+    &__tagline {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #1A212F;
+    }
+
+}

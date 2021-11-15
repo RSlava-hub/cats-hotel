@@ -1,0 +1,45 @@
+.footer {
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 198px 32px 198px;
+    }
+
+    &__img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 198px 20px 198px;
+        & span, button{
+            font-family: "Lato-Regular";
+            font-size: 12px;
+            line-height: 14px;
+            color: #8F8F8F;
+        }
+        & button{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }
+    }
+}
+.footermenu {
+
+    &__link {
+            text-decoration: none;
+            color: #1A212F;
+            line-height: 19px;
+            font-size: 16px;
+            font-weight: 600;
+    }
+    &__link:not(:last-child){
+        margin-right: 30px;
+    }
+}

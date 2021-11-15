@@ -1,0 +1,68 @@
+.whyus {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/src/img/bgpic/whyuspaw.svg);
+    background-size: 367px 314px;
+    background-position: top right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__blocks{
+        margin-top: 70px;
+        width: 1366px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        
+    }
+    &__head {
+        text-align: center;
+        color: #1A212F;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 30px;
+        
+    }
+        
+
+    &__block {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        width: 370px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+    }
+    img{
+        margin-top: 30px;
+        margin-bottom: 35px;
+        
+
+    }
+    h1{
+        margin-top: 140px;
+    }
+    h2{
+        color: #1A212F;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+}
